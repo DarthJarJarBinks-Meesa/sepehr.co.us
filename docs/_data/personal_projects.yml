@@ -80,3 +80,29 @@
   status: "Prototype"
   image: ""
   image_alt: ""
+
+- id: pleuroperitoneal-shunt-valve
+  title: "Novel Pleuroperitoneal Shunt Valve"
+  what: >-
+    A novel pleuroperitoneal shunt valve concept I designed from scratch to
+    improve one-way fluid flow. The design adds a ball-in-cone mechanism
+    intended to maintain directional flow and reduce failure caused by postural
+    changes.
+  why: >-
+    I made it to address a practical limitation in shunt performance: changes
+    in body position can disrupt pressure conditions and compromise reliable
+    flow. I wanted to explore a more mechanically robust valve concept that
+    could better preserve one-way function under real-world physiological
+    variation.
+  interesting: >-
+    What makes it interesting is the added ball-in-cone approach, which is
+    meant to mechanically reinforce one-way flow and make the system more
+    resistant to posture-related backflow or inconsistency. It combines a
+    simple physical principle with a clinically relevant design constraint.
+  role: >-
+    Personal design project; I developed the concept end-to-end, including the
+    valve idea, one-way flow strategy, and the core design logic behind using
+    the ball-in-cone mechanism to improve reliability.
+  status: "Concept"
+  image: ""
+  image_alt: ""
