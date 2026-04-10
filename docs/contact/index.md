@@ -11,7 +11,6 @@ extra_scripts:
     <h1 class="page-header__title">Contact</h1>
     <p class="page-header__lede">
       I’d love to connect about research, engineering, entrepreneurship, or collaboration.
-      Replace the placeholder links in <code>docs/_data/site_links.yml</code> when you’re ready.
     </p>
   </header>
 
