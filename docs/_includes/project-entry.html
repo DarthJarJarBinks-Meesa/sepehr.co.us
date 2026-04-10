@@ -1,5 +1,6 @@
 {% assign p = include.item %}
-<article class="project-card{% if p.image != blank %} project-card--with-image{% endif %}" id="{{ p.id }}">
+{% assign project_image = p.image | to_s | strip %}
+<article class="project-card{% if project_image != '' %} project-card--with-image{% endif %}" id="{{ p.id }}">
   <div class="project-card__body">
     <header class="project-card__head">
       <h2 class="project-card__title">{{ p.title }}</h2>
@@ -39,9 +40,9 @@
     </div>
   </div>
 
-  {% if p.image != blank %}
+  {% if project_image != '' %}
     <figure class="project-card__figure">
-      <img src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title | escape }}" loading="lazy" width="640" height="400">
+      <img src="{{ project_image | relative_url }}" alt="{{ p.image_alt | default: p.title | escape }}" loading="lazy" width="640" height="400">
     </figure>
   {% endif %}
 </article>
