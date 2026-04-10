@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="wrap">
+  <header class="page-header">
+    <h1 class="page-header__title">{{ page.title }}</h1>
+    {% if page.lede %}
+      <p class="page-header__lede">{{ page.lede }}</p>
+    {% endif %}
+  </header>
+
+  <div class="about-grid">
+    <div class="prose">
+      {{ content }}
+    </div>
+    <aside class="about-aside" aria-label="Profile photo">
+      {% assign ap = site.data.about %}
+      {% if ap.photo != blank %}
+        <figure class="about-photo">
+          <img src="{{ ap.photo | relative_url }}" alt="{{ ap.photo_alt | escape }}" width="560" height="700" loading="lazy">
+        </figure>
+      {% else %}
+        <div class="about-photo photo-placeholder" role="img" aria-label="{{ ap.photo_alt | default: 'Profile placeholder' }}">
+          {{ ap.initials | default: "—" }}
+        </div>
+      {% endif %}
+    </aside>
+  </div>
+</div>

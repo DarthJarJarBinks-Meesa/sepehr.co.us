@@ -1,0 +1,35 @@
+# =============================================================================
+# PLACEHOLDER — append new entries; each becomes one card on /research/
+# Fields are optional except title; omit unused keys or leave as PLACEHOLDER
+# =============================================================================
+- id: sample-orthopedic-device
+  title: "PLACEHOLDER — Project title (e.g., implant sensing / surgical tool)"
+  lab: "PLACEHOLDER — Lab name, Northwestern University"
+  mentor: "PLACEHOLDER — Faculty / PI"
+  summary_plain: >-
+    PLACEHOLDER — 2–4 sentences a non-specialist can follow. What are you doing
+    and why does it matter clinically or scientifically?
+  summary_technical: >-
+    PLACEHOLDER — Slightly deeper detail: mechanisms, signals, materials,
+    modeling assumptions, or physiology you engage with.
+  problem: >-
+    PLACEHOLDER — The gap, risk, or unmet need (clinical, engineering, or scientific).
+  role: >-
+    PLACEHOLDER — Your responsibilities: design, experiments, analysis, prototyping, etc.
+  methods: >-
+    PLACEHOLDER — Methods, tools, software, fabrication, statistics, imaging, etc.
+  outcomes: >-
+    PLACEHOLDER — Posters, talks, manuscripts, patents filed, next milestones.
+
+- id: sample-functional-neurosurgery
+  title: "PLACEHOLDER — Second research thread"
+  lab: "PLACEHOLDER — Institution / center"
+  mentor: ""
+  summary_plain: >-
+    PLACEHOLDER — Plain-English overview for a broad audience.
+  summary_technical: >-
+    PLACEHOLDER — Technical layer for readers who want more depth.
+  problem: "PLACEHOLDER — Problem statement."
+  role: "PLACEHOLDER — Your contributions."
+  methods: "PLACEHOLDER — Techniques and tools."
+  outcomes: "PLACEHOLDER — Outputs and future directions."

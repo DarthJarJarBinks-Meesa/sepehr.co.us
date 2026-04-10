@@ -1,0 +1,47 @@
+{% assign p = include.item %}
+<article class="project-card" id="{{ p.id }}">
+  <div class="project-card__body">
+    <header class="project-card__head">
+      <h2 class="project-card__title">{{ p.title }}</h2>
+      {% if p.status != blank %}
+        <p class="project-card__status"><span class="pill">{{ p.status }}</span></p>
+      {% endif %}
+    </header>
+
+    {% if p.what != blank %}
+      <section class="project-card__section">
+        <h3 class="project-card__label">What it is</h3>
+        <div class="project-card__text">{{ p.what | markdownify }}</div>
+      </section>
+    {% endif %}
+
+    {% if p.why != blank %}
+      <section class="project-card__section">
+        <h3 class="project-card__label">Why I made it</h3>
+        <div class="project-card__text">{{ p.why | markdownify }}</div>
+      </section>
+    {% endif %}
+
+    {% if p.interesting != blank %}
+      <section class="project-card__section">
+        <h3 class="project-card__label">What makes it interesting</h3>
+        <div class="project-card__text">{{ p.interesting | markdownify }}</div>
+      </section>
+    {% endif %}
+
+    <div class="project-card__grid">
+      {% if p.role != blank %}
+        <section class="project-card__section">
+          <h3 class="project-card__label">My role</h3>
+          <div class="project-card__text">{{ p.role | markdownify }}</div>
+        </section>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if p.image != blank %}
+    <figure class="project-card__figure">
+      <img src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title | escape }}" loading="lazy" width="640" height="400">
+    </figure>
+  {% endif %}
+</article>

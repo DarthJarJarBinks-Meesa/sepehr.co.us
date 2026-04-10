@@ -56,7 +56,7 @@ $entries[-1]{text} = markdown($curr_entry);
 
 my $feed = XML::Feed->new(@$type);
 $feed->title(q[Dave's 2020 Vision]);
-$feed->link(q[https://davecross.co.uk/2020-vision/]);
+$feed->link(q[https://sepehr.co.us/2020-vision/]);
 $feed->self_link($feed->link . $feed_file);
 $feed->id($feed->self_link);
 
@@ -84,11 +84,11 @@ for (@entries) {
   my $entry = XML::Feed::Entry->new('Atom');
   $entry->title($_->{title});
   $entry->content($_->{text});
-  $entry->author('dave+feed@davecross.co.uk (Dave Cross)');
+  $entry->author('site@sepehr.co.us (Sepehr Khavari)');
   $entry->issued($dt_obj);
   $entry->modified($dt_obj);
-  $entry->id("https://davecross.co.uk/2020-vision/#$id");
-  $entry->link("https://davecross.co.uk/2020-vision/#$id");
+  $entry->id("https://sepehr.co.us/2020-vision/#$id");
+  $entry->link("https://sepehr.co.us/2020-vision/#$id");
   $feed->add_entry($entry);
 }
 

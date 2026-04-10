@@ -1,0 +1,13 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="wrap site-footer__inner">
+    <p class="site-footer__copy">
+      © {{ 'now' | date: '%Y' }} {{ site.data.profile.name | default: site.title }}.
+      Built with <a href="https://jekyllrb.com/">Jekyll</a> ·
+      <a href="https://pages.github.com/">GitHub Pages</a>-friendly layout.
+    </p>
+    <ul class="site-footer__links">
+      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+      <li><a href="{{ '/fun-surprise/' | relative_url }}">Fun surprise</a></li>
+    </ul>
+  </div>
+</footer>

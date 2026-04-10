@@ -1,0 +1,25 @@
+# =============================================================================
+# PLACEHOLDER — append projects; each renders as a card on /personal-projects/
+# =============================================================================
+- id: sample-invention
+  title: "PLACEHOLDER — Project name"
+  what: >-
+    PLACEHOLDER — What it is in one tight paragraph (product, tool, design study).
+  why: >-
+    PLACEHOLDER — Why you made it: user, curiosity, advocacy, competition brief, etc.
+  interesting: >-
+    PLACEHOLDER — What makes it different: constraint, insight, hack, or craft.
+  role: "PLACEHOLDER — Solo / team; what you owned end-to-end."
+  status: "PLACEHOLDER — e.g., Prototype · On hold · Pilot · Shipped"
+  image: ""
+  image_alt: ""
+
+- id: sample-software-tool
+  title: "PLACEHOLDER — Second project"
+  what: "PLACEHOLDER — Description."
+  why: "PLACEHOLDER — Motivation."
+  interesting: "PLACEHOLDER — Differentiator."
+  role: "PLACEHOLDER — Your role."
+  status: "PLACEHOLDER — Stage."
+  image: ""
+  image_alt: ""

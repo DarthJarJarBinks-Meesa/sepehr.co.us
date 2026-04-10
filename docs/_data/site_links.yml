@@ -1,0 +1,13 @@
+# =============================================================================
+# PLACEHOLDER — replace with your real contact and profile URLs
+# =============================================================================
+email: "your.email@northwestern.edu"
+email_display: "your.email@northwestern.edu"
+
+linkedin: "https://www.linkedin.com/in/YOUR-LINKEDIN/"
+github: "https://github.com/YOUR-GITHUB-USERNAME"
+google_scholar: "https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID"
+portfolio: ""
+
+# Used in mailto contact form (no secrets stored in the repo)
+email_subject_prefix: "Website message"

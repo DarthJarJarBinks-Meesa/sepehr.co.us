@@ -1,0 +1,50 @@
+{% assign p = include.item %}
+<article class="research-card" id="{{ p.id }}">
+  <header class="research-card__head">
+    <h2 class="research-card__title">{{ p.title }}</h2>
+    {% if p.lab != blank %}
+      <p class="research-card__meta">{{ p.lab }}{% if p.mentor != blank %} · {{ p.mentor }}{% endif %}</p>
+    {% endif %}
+  </header>
+
+  {% if p.summary_plain != blank %}
+    <section class="research-card__section" aria-label="Overview">
+      <h3 class="research-card__label">Plain-language summary</h3>
+      <div class="research-card__text">{{ p.summary_plain | markdownify }}</div>
+    </section>
+  {% endif %}
+
+  {% if p.summary_technical != blank %}
+    <section class="research-card__section" aria-label="Technical summary">
+      <h3 class="research-card__label">Technical angle</h3>
+      <div class="research-card__text">{{ p.summary_technical | markdownify }}</div>
+    </section>
+  {% endif %}
+
+  <div class="research-card__grid">
+    {% if p.problem != blank %}
+      <section class="research-card__section">
+        <h3 class="research-card__label">Problem</h3>
+        <div class="research-card__text">{{ p.problem | markdownify }}</div>
+      </section>
+    {% endif %}
+    {% if p.role != blank %}
+      <section class="research-card__section">
+        <h3 class="research-card__label">My role</h3>
+        <div class="research-card__text">{{ p.role | markdownify }}</div>
+      </section>
+    {% endif %}
+    {% if p.methods != blank %}
+      <section class="research-card__section">
+        <h3 class="research-card__label">Methods &amp; tools</h3>
+        <div class="research-card__text">{{ p.methods | markdownify }}</div>
+      </section>
+    {% endif %}
+    {% if p.outcomes != blank %}
+      <section class="research-card__section">
+        <h3 class="research-card__label">Outcomes &amp; next steps</h3>
+        <div class="research-card__text">{{ p.outcomes | markdownify }}</div>
+      </section>
+    {% endif %}
+  </div>
+</article>

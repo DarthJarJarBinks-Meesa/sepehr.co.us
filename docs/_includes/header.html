@@ -1,0 +1,33 @@
+{% assign current = page.url | remove_first: '/' | split: '/' | first %}
+<header class="site-header" role="banner">
+  <div class="site-header__inner">
+    <a class="site-logo" href="{{ '/' | relative_url }}">{{ site.data.profile.name | default: site.title }}</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+      <span class="nav-toggle__bars" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <span class="visually-hidden">Menu</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary" data-site-nav>
+      <ul class="site-nav__list">
+        <li><a class="site-nav__link{% if current == '' %} is-active{% endif %}" href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a class="site-nav__link{% if current == 'about' %} is-active{% endif %}" href="{{ '/about/' | relative_url }}">About Me</a></li>
+        <li><a class="site-nav__link{% if current == 'research' %} is-active{% endif %}" href="{{ '/research/' | relative_url }}">Research</a></li>
+        <li><a class="site-nav__link{% if current == 'personal-projects' %} is-active{% endif %}" href="{{ '/personal-projects/' | relative_url }}">Personal Projects</a></li>
+        <li><a class="site-nav__link{% if current == 'contact' %} is-active{% endif %}" href="{{ '/contact/' | relative_url }}">Contact</a></li>
+        <li><a class="site-nav__link{% if current == 'fun-surprise' %} is-active{% endif %}" href="{{ '/fun-surprise/' | relative_url }}">Fun Surprise</a></li>
+        <li>
+          <a
+            class="site-nav__link site-nav__link--resume"
+            href="{{ site.resume_pdf_path | relative_url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Resume (opens PDF in new tab)"
+          >Resume{% include icon-external.svg %}<span class="visually-hidden"> (opens in new tab)</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

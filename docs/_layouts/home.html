@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<section class="hero" aria-labelledby="hero-heading">
+  <div class="hero__glow" aria-hidden="true"></div>
+  <div class="wrap hero__inner">
+    <p class="hero__eyebrow">Northwestern University</p>
+    <h1 id="hero-heading" class="hero__title">{{ site.data.profile.name | default: site.title }}</h1>
+    <p class="hero__tagline">{{ site.data.profile.headline | default: site.tagline }}</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="{{ '/about/' | relative_url }}">About Me</a>
+      <a class="btn btn--ghost" href="{{ '/research/' | relative_url }}">Research</a>
+      <a class="btn btn--ghost" href="{{ '/personal-projects/' | relative_url }}">Projects</a>
+      <a class="btn btn--ghost" href="{{ '/contact/' | relative_url }}">Contact</a>
+      <a
+        class="btn btn--ghost"
+        href="{{ site.resume_pdf_path | relative_url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >Resume (PDF)</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap prose">
+    {{ content }}
+  </div>
+</section>
+
+{% assign highlight_count = site.data.highlights | size %}
+{% if highlight_count > 0 %}
+<section class="section section--muted" aria-labelledby="highlights-heading">
+  <div class="wrap">
+    <div class="section__head">
+      <h2 id="highlights-heading" class="section__title">Featured highlights</h2>
+      <p class="section__lede">A few threads I’m especially proud of right now — swap these in <code>_data/highlights.yml</code>.</p>
+    </div>
+    <div class="card-grid card-grid--3">
+      {% for h in site.data.highlights %}
+        <a class="feature-card" href="{{ h.href | relative_url }}">
+          <span class="feature-card__tag">{{ h.tag }}</span>
+          <h3 class="feature-card__title">{{ h.title }}</h3>
+          <p class="feature-card__blurb">{{ h.blurb }}</p>
+          <span class="feature-card__cta">Explore</span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

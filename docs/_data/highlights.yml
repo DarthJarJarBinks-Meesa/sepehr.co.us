@@ -1,0 +1,17 @@
+# =============================================================================
+# PLACEHOLDER — featured cards on the Home page (edit freely)
+# =============================================================================
+- title: "Orthopedic device research"
+  blurb: "PLACEHOLDER — one-line hook about your lab work or flagship project."
+  href: "/research/"
+  tag: Research
+
+- title: "Independent build / startup concept"
+  blurb: "PLACEHOLDER — short teaser for something you shipped or are exploring."
+  href: "/personal-projects/"
+  tag: Projects
+
+- title: "Presentation or milestone"
+  blurb: "PLACEHOLDER — poster, paper, award, or leadership moment."
+  href: "/research/"
+  tag: Highlight

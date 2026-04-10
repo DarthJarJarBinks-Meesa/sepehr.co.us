@@ -1,42 +1,46 @@
-title: Dave Cross
-locale: en_GB
-description: Web Development and CI/CD Engineer · Author / Publisher · Digital Mentor
-remote_theme: mmistakes/minimal-mistakes
+# =============================================================================
+# SITE CONFIG — update `url` when you connect a custom domain on GitHub Pages
+# =============================================================================
+title: Sepehr Khavari
+tagline: Mechanical Engineering & Neuroscience · Builder · Researcher
+description: >-
+  Dual accelerated M.S./B.S. in Mechanical Engineering and Neuroscience at
+  Northwestern University. Medical devices, orthopedics, functional neurosurgery,
+  startups, and thoughtful engineering.
+
+# Production URL (no trailing slash). Custom domain for GitHub Pages — see docs/CNAME.
+url: "https://sepehr.co.us"
+baseurl: ""
+
+locale: en_US
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+permalink: pretty
+
 plugins:
-  - jekyll-include-cache
-  - jekyll-remote-theme
   - jekyll-seo-tag
-  - jekyll-redirect-from
+  - jekyll-sitemap
 
-logo: img/dc-cartoon-sq.png
-og_image: /img/dc-cartoon.png
+# Resume opens in a new tab — replace the filename after you add your real PDF
+# (see docs/assets/documents/README.md)
+resume_pdf_path: "/assets/documents/YOUR_RESUME_HERE.pdf"
 
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-4E7LRJH94L"
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - assets/js/crossword-layout-test.mjs
 
-atom_feed:
-  hide: true
-
-footer:
-  links:
-    - label: "Feed"
-      url: "https://davorg.theplanetarium.org/atom.xml"
-      icon: "fa-solid fa-rss"
-    - label: "Contact"
-      url: "/contact/"
-      icon: "fa-solid fa-pen"
-    - label: "Links"
-      url: "https://links.davecross.co.uk/"
-      icon: "fa-solid fa-link"
+sass:
+  quiet_deps: true
 
 defaults:
   - scope:
       path: ""
     values:
-      layout: single
-      image: /img/dc-cartoon-sq.png
-
-include:
-  - assets/css/custom.css
+      layout: default

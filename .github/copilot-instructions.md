@@ -1,199 +1,46 @@
-# Copilot Instructions for davecross.co.uk
+# Copilot instructions for sepehr.co.us
 
-## Repository Overview
+## Overview
 
-This is the source code for **[davecross.co.uk](https://davecross.co.uk/)**, the personal website of Dave Cross — a Web Development and CI/CD Engineer, Author/Publisher, and Digital Mentor. The site is a static Jekyll site hosted on GitHub Pages and automatically deployed whenever changes are pushed to the repository.
+This repository powers **[sepehr.co.us](https://sepehr.co.us/)**, the personal site of **Sepehr Khavari** (Mechanical Engineering & Neuroscience, Northwestern). It is a **static Jekyll 4** site with a **custom layout** (not Minimal Mistakes). Content and source live under **`docs/`**. Production deploys with **GitHub Actions** (`.github/workflows/jekyll.yml`); the custom domain is set in **`docs/CNAME`**.
 
-## Technology Stack
+## Stack
 
-- **Static Site Generator:** [Jekyll](https://jekyllrb.com/) ~> 4.3
-- **Theme:** [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) (loaded as a remote theme via `jekyll-remote-theme`)
-- **Ruby version:** 3.3.8 (see `.ruby-version`)
-- **Content format:** Markdown with Jekyll front matter
-- **Feed generation:** Perl script (`bin/makefeed`)
-- **Form handling:** [Formspree](https://formspree.io/) (external service, no server-side code)
-- **Analytics:** Google Analytics (gtag)
-- **Icons:** Font Awesome 6.5.1 (via CDN)
-- **Hosting:** GitHub Pages with custom domain `davecross.co.uk`
+- **Jekyll** ~> 4.3 (`Gemfile` at repo root)
+- **Plugins:** `jekyll-seo-tag`, `jekyll-sitemap`
+- **Assets:** `docs/assets/css/main.css`, `docs/assets/js/*.js`
+- **Data-driven sections:** `docs/_data/research.yml`, `personal_projects.yml`, `highlights.yml`, `site_links.yml`, etc.
 
-## Directory Structure
+## Layouts & pages
 
-```
-/
-├── .ruby-version          # Pins Ruby to 3.3.8
-├── Gemfile                # Ruby gem dependencies
-├── Gemfile.lock           # Locked gem versions
-├── README.md              # Project README
-├── bin/
-│   └── makefeed           # Perl script to generate Atom/RSS feeds
-└── docs/                  # Jekyll site root (GitHub Pages source)
-    ├── _config.yml        # Jekyll configuration
-    ├── _data/
-    │   └── navigation.yml # Main navigation menu definition
-    ├── _includes/
-    │   └── head-custom-google-analytics.html  # Google Analytics include
-    ├── assets/
-    │   └── css/
-    │       └── custom.css # Custom styles (form + service icon styles)
-    ├── img/               # Site images (profile pictures, logos)
-    ├── index.md           # Homepage
-    ├── 404.md             # Custom 404 page
-    ├── sitemap.xml        # XML sitemap
-    ├── CNAME              # GitHub Pages custom domain config
-    ├── 2020-vision/       # Weekly blog reports section
-    ├── books/             # Books and publications page
-    ├── contact/           # Contact form + thank-you page
-    ├── cv/                # CV/resume in multiple formats
-    ├── elsewhere/         # Links to external profiles
-    ├── projects/          # Project portfolio
-    ├── services/          # Services offered
-    └── videos/            # Videos section (placeholder)
-```
+- **Layouts:** `docs/_layouts/default.html`, `home.html`, `about.html`
+- **Includes:** `docs/_includes/header.html` (nav + Resume PDF link), `footer.html`, `head.html`, `research-entry.html`, `project-entry.html`
+- **Main pages:** `index.md` (home), `about/`, `research/`, `personal-projects/`, `contact/`, `fun-surprise/` (crossword loads `assets/data/crossword.json`)
 
-## Local Development Setup
+## Local commands
 
 ```bash
-# Install dependencies
 bundle install
-
-# Build the site (outputs to docs/_site/)
-bundle exec jekyll build --source docs
-
-# Serve locally with live reload
+bundle exec jekyll build --source docs --destination _site
 bundle exec jekyll serve --source docs
-
-# The site is available at http://localhost:4000
 ```
 
-> **Note:** GitHub Pages builds the site from the `docs/` directory. All Jekyll source files (content, config, layouts, data) live under `docs/`.
+Always use **`--source docs`** (or `cd docs` and run Jekyll there) — the site root is **`docs/`**, not the repository root.
 
-## Content Organization
+## Configuration
 
-All content pages are Markdown files (`.md`) inside `docs/`. Each page uses Jekyll front matter at the top:
+- **`docs/_config.yml`:** `url` (https://sepehr.co.us), `title`, `resume_pdf_path`, `plugins`, excludes
+- **`docs/CNAME`:** `sepehr.co.us` for GitHub Pages custom domain
 
-```yaml
----
-title: Page Title
-layout: single          # default layout from Minimal Mistakes theme
----
-```
+## Legacy / unused
 
-| Section | File(s) | Notes |
-|---|---|---|
-| Homepage | `docs/index.md` | Dynamically loads feed from external JSON API |
-| Books | `docs/books/index.md` | Lists published and upcoming books |
-| Projects | `docs/projects/index.md` | Portfolio of projects |
-| Services | `docs/services/index.md` | Services offered by Dave |
-| Contact | `docs/contact/index.md` | Formspree-backed contact form |
-| Contact thanks | `docs/contact/thanks.md` | Post-submission thank-you page |
-| CV | `docs/cv/index.md` | Resume; downloadable files in `docs/cv/data/` |
-| Elsewhere | `docs/elsewhere/index.md` | Links to social profiles and external sites |
-| 2020 Vision | `docs/2020-vision/index.md` | Weekly blog reports (feed generated by Perl script) |
+- **`bin/makefeed`:** Perl script from the upstream fork (2020-vision feeds). The `docs/2020-vision/` section was removed; do not assume this script is part of the current workflow.
 
-## Key Configuration Files
+## Changing content
 
-### `docs/_config.yml`
-Main Jekyll configuration. Defines:
-- Site title, locale, and description
-- Remote theme (`mmistakes/minimal-mistakes`)
-- Plugins list
-- Analytics provider
-- Footer links
-- Default layout (`single`) for all pages
+- Prefer editing **`docs/_data/*.yml`** and Markdown under **`docs/`** rather than changing layout HTML, unless the task requires UI changes.
+- Research and personal projects are rendered by Liquid loops over `_data` files and `{% include %}` partials — add rows to YAML to add cards.
 
-### `docs/_data/navigation.yml`
-Defines the main navigation menu. To add a new top-level nav item, add an entry under `main:`:
+## Security
 
-```yaml
-main:
-  - title: New Page
-    url: /new-page/
-```
-
-### `Gemfile`
-Ruby gem dependencies. Do **not** add gems without also updating `Gemfile.lock` via `bundle install`.
-
-## Adding or Editing Content
-
-### Adding a New Page
-
-1. Create a directory under `docs/` (e.g., `docs/new-section/`)
-2. Create `docs/new-section/index.md` with front matter:
-   ```yaml
-   ---
-   title: New Section
-   layout: single
-   ---
-   ```
-3. Add content below the front matter as Markdown
-4. Optionally add the page to `docs/_data/navigation.yml`
-
-### Adding a Redirect
-
-Use the `redirect_from` front matter key (provided by `jekyll-redirect-from`):
-
-```yaml
----
-title: My Page
-redirect_from:
-  - /old-url/
-  - /another-old-url/
----
-```
-
-### Editing Navigation
-
-Edit `docs/_data/navigation.yml`. The `main` key controls the header navigation bar.
-
-## Styling (Custom CSS)
-
-Custom styles live in `docs/assets/css/custom.css`. Currently it defines:
-- `.service-icon` — floated icon class for the services page
-- `.contact-form` — contact form layout styles
-
-The Minimal Mistakes theme provides most of the styling. Avoid duplicating theme styles; add only overrides or new component styles here.
-
-## Feed Generation (Perl Script)
-
-The `bin/makefeed` script generates Atom or RSS feeds from `docs/2020-vision/index.md`.
-
-```bash
-# Generate Atom feed (default)
-perl bin/makefeed
-
-# Generate RSS feed
-perl bin/makefeed docs/2020-vision/index.md rss
-```
-
-**Required Perl modules:** `XML::Feed`, `Text::Markdown`, `DateTime::Format::Strptime`, `DateTime`
-
-The script:
-1. Parses `## ` and `### ` headings in the source markdown as feed entries
-2. Extracts dates from heading titles (ISO `YYYY-MM-DD` or month names)
-3. Writes `feed.atom` or `feed.rss` to `docs/2020-vision/`
-
-## Deployment
-
-Deployment is fully automatic via **GitHub Pages**:
-- Pushing to the default branch triggers a GitHub Pages build
-- The site is built from the `docs/` directory
-- The live site is served at `https://davecross.co.uk/` (custom domain set via `docs/CNAME`)
-- **No manual deployment steps are needed**
-
-There are no custom GitHub Actions workflow files in this repository — the deployment is handled entirely by GitHub Pages' built-in Jekyll build process.
-
-## Linting and Testing
-
-There are **no linting or testing tools configured** in this repository. There is no `Makefile`, no test suite, and no CI workflow file.
-
-To validate changes:
-- Run `bundle exec jekyll build --source docs` locally and confirm it succeeds with no errors
-- Preview the site with `bundle exec jekyll serve --source docs` and check affected pages in a browser
-
-## Known Issues and Workarounds
-
-- **No CI workflow file:** The repository relies entirely on GitHub Pages' implicit Jekyll build. If you add a GitHub Actions workflow file (e.g., for link checking or linting), make sure it doesn't conflict with the GitHub Pages deployment.
-- **Remote theme dependency:** The Minimal Mistakes theme is fetched at build time from GitHub. Build failures may occasionally occur due to network issues or upstream theme changes. If the build fails unexpectedly, check whether the remote theme is accessible.
-- **Perl feed script dependencies:** The `bin/makefeed` script requires Perl CPAN modules that may not be installed by default. Install them with `cpan XML::Feed Text::Markdown DateTime::Format::Strptime`.
-- **Jekyll source directory:** The Jekyll site root is `docs/`, not the repository root. Always pass `--source docs` when running Jekyll commands locally, or `cd docs` first. GitHub Pages is configured to use the `docs/` folder as the source.
-- **Dynamic content on homepage:** The homepage loads recent writing from `https://davorg.theplanetarium.org/feeds.json` via JavaScript at runtime. This is external to the repository and cannot be edited here.
+- Do not commit API keys, Formspree IDs, or other secrets. The contact form is **mailto-based** by design.

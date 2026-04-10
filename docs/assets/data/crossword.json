@@ -1,0 +1,2486 @@
+{
+  "crossword": {
+    "title": "Greek Gods",
+    "checkAnswersMode": "case-insensitive",
+    "ignoreCharacters": [
+      " ",
+      "-",
+      "'"
+    ],
+    "layoutSeed": 83,
+    "intro": "As a reward for stopping by, here's a fun crossword puzzle.",
+    "instructions": {
+      "checkButtonLabel": "Check Answers",
+      "messages": {
+        "perfect": "You got them all right.",
+        "partial": "Close — you got {correct} out of {total}.",
+        "retry": "Nice try. Refresh and try again."
+      }
+    },
+    "entries": [
+      {
+        "direction": "across",
+        "number": 2,
+        "clue": "the Goddess of Victory",
+        "answer": "NIKE"
+      },
+      {
+        "direction": "across",
+        "number": 7,
+        "clue": "the school for gods",
+        "answer": "PLATOSACADEMY"
+      },
+      {
+        "direction": "across",
+        "number": 8,
+        "clue": "the nerds clique",
+        "answer": "ATHENASTABLE"
+      },
+      {
+        "direction": "across",
+        "number": 9,
+        "clue": "the goth clique",
+        "answer": "HADESHAREM"
+      },
+      {
+        "direction": "across",
+        "number": 10,
+        "clue": "a boy Phoebe likes",
+        "answer": "GRIFFIN"
+      },
+      {
+        "direction": "across",
+        "number": 11,
+        "clue": "the place she moved to",
+        "answer": "SERFOPOULA"
+      },
+      {
+        "direction": "across",
+        "number": 12,
+        "clue": "the jock clique",
+        "answer": "ZEUSSET"
+      },
+      {
+        "direction": "across",
+        "number": 14,
+        "clue": "the computer geeks clique",
+        "answer": "HEPHEASTUS"
+      },
+      {
+        "direction": "down",
+        "number": 1,
+        "clue": "used to describe Stella",
+        "answer": "EVILHARPY"
+      },
+      {
+        "direction": "down",
+        "number": 3,
+        "clue": "prize given for winning race",
+        "answer": "MEDAL"
+      },
+      {
+        "direction": "down",
+        "number": 4,
+        "clue": "her favorite place to run",
+        "answer": "BEACH"
+      },
+      {
+        "direction": "down",
+        "number": 5,
+        "clue": "the descendant of Nike",
+        "answer": "PHOEBE"
+      },
+      {
+        "direction": "down",
+        "number": 6,
+        "clue": "the cheerleader clique",
+        "answer": "HERA"
+      },
+      {
+        "direction": "down",
+        "number": 7,
+        "clue": "the surfers clique",
+        "answer": "POSEIDONS"
+      },
+      {
+        "direction": "down",
+        "number": 13,
+        "clue": "her favorite sport",
+        "answer": "RUNNING"
+      }
+    ],
+    "grid": {
+      "rows": 24,
+      "cols": 32,
+      "cells": [
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "B",
+            "downNumber": 4
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "P",
+            "downNumber": 5
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "C"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "H",
+            "acrossNumber": 14
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "P"
+          },
+          {
+            "letter": "H"
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "letter": "S"
+          },
+          {
+            "letter": "T"
+          },
+          {
+            "letter": "U"
+          },
+          {
+            "letter": "S"
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "A",
+            "acrossNumber": 8
+          },
+          {
+            "letter": "T"
+          },
+          {
+            "letter": "H"
+          },
+          {
+            "letter": "E",
+            "downNumber": 1
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "letter": "S"
+          },
+          {
+            "letter": "T"
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "letter": "B"
+          },
+          {
+            "letter": "L"
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "V"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "G",
+            "acrossNumber": 10
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "letter": "I"
+          },
+          {
+            "letter": "F"
+          },
+          {
+            "letter": "F"
+          },
+          {
+            "letter": "I"
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "L"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "H"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "H",
+            "downNumber": 6
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "N",
+            "acrossNumber": 2
+          },
+          {
+            "letter": "I"
+          },
+          {
+            "letter": "K"
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "M",
+            "downNumber": 3
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "P"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "P",
+            "acrossNumber": 7,
+            "downNumber": 7
+          },
+          {
+            "letter": "L"
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "letter": "T"
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "letter": "S"
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "letter": "C"
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "letter": "D"
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "M"
+          },
+          {
+            "letter": "Y"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "D"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "S"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "R",
+            "downNumber": 13
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "H",
+            "acrossNumber": 9
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "letter": "D"
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "S"
+          },
+          {
+            "letter": "H"
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "M"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "S",
+            "acrossNumber": 11
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "letter": "F"
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "letter": "P"
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "letter": "U"
+          },
+          {
+            "letter": "L"
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "L"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "I"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "D"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "I"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "letter": "Z",
+            "acrossNumber": 12
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "U"
+          },
+          {
+            "letter": "S"
+          },
+          {
+            "letter": "S"
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "T"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "G"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ]
+      ]
+    }
+  }
+}
