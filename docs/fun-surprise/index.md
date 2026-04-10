@@ -17,7 +17,7 @@ extra_scripts:
   <div
     id="crossword-root"
     class="crossword-mount"
-    data-crossword-url="{{ '/assets/data/crossword.json' | relative_url }}"
+    data-crossword-url="{{ '/assets/data/star_wars_crossword_ai_friendly.json' | relative_url }}"
     role="region"
     aria-label="Crossword puzzle"
   ></div>

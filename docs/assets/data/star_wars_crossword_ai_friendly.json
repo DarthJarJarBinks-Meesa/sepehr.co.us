@@ -1,0 +1,1286 @@
+{
+  "id": "star-wars-crossword-001",
+  "title": "Star Wars Crossword",
+  "source_file": "Star-Wars-Crossword.pdf",
+  "notes": [
+    "This format is optimized for AI coding agents.",
+    "Answers are normalized to uppercase with no spaces or punctuation.",
+    "Clue text is human-readable.",
+    "Grid coordinates are intentionally omitted here to avoid locking the agent into a possibly imperfect manual transcription from the PDF image.",
+    "An AI agent can use these clues and answers either to generate a crossword UI directly or to reconstruct the grid from the provided puzzle/solution images.",
+    "The `crossword` object embeds a machine-generated grid layout for the site UI; letter intersections match the answers but the shape may differ from the printed PDF."
+  ],
+  "format": {
+    "answer_style": "UPPERCASE_NO_SPACES",
+    "sections": [
+      "across",
+      "down"
+    ]
+  },
+  "across": [
+    {
+      "number": 2,
+      "clue": "She is betrayed by Dooku",
+      "answer": "ASAJJVENTRESS"
+    },
+    {
+      "number": 4,
+      "clue": "Fett in \"The Mandalorian\"",
+      "answer": "BOBA"
+    },
+    {
+      "number": 6,
+      "clue": "Native home of the Ewoks",
+      "answer": "ENDOR"
+    },
+    {
+      "number": 7,
+      "clue": "Han Solo's Millennium _____",
+      "answer": "FALCON"
+    },
+    {
+      "number": 8,
+      "clue": "Love interest of Han Solo's son",
+      "answer": "TAHIRI"
+    },
+    {
+      "number": 9,
+      "clue": "Government built to replace the Galactic Empire",
+      "answer": "NEWREPUBLIC"
+    },
+    {
+      "number": 10,
+      "clue": "One of the protagonists of The Force Awakens who is a former Stormtrooper",
+      "answer": "FINN"
+    }
+  ],
+  "down": [
+    {
+      "number": 1,
+      "clue": "Someone who is apparently very precise",
+      "answer": "STORMTROOPER"
+    },
+    {
+      "number": 3,
+      "clue": "Leader of the Nightsisters in the Clone Wars",
+      "answer": "MOTHERTALZIN"
+    },
+    {
+      "number": 5,
+      "clue": "Amphibious humanoids native to the planet of Naboo",
+      "answer": "GUNGANS"
+    }
+  ],
+  "crossword": {
+    "title": "Star Wars Crossword",
+    "checkAnswersMode": "case-insensitive",
+    "ignoreCharacters": [
+      " ",
+      "-",
+      "'"
+    ],
+    "intro": "Fill in the grid using the clues. May the Force be with you.",
+    "instructions": {
+      "checkButtonLabel": "Check answers",
+      "messages": {
+        "perfect": "Great work, Jedi. You solved it!",
+        "partial": "Nice try — you got {correct} out of {total}.",
+        "retry": "Not quite. Use the Force and try again."
+      }
+    },
+    "entries": [
+      {
+        "direction": "across",
+        "number": 2,
+        "clue": "She is betrayed by Dooku",
+        "answer": "ASAJJVENTRESS"
+      },
+      {
+        "direction": "across",
+        "number": 4,
+        "clue": "Fett in \"The Mandalorian\"",
+        "answer": "BOBA"
+      },
+      {
+        "direction": "across",
+        "number": 6,
+        "clue": "Native home of the Ewoks",
+        "answer": "ENDOR"
+      },
+      {
+        "direction": "across",
+        "number": 7,
+        "clue": "Han Solo's Millennium _____",
+        "answer": "FALCON"
+      },
+      {
+        "direction": "across",
+        "number": 8,
+        "clue": "Love interest of Han Solo's son",
+        "answer": "TAHIRI"
+      },
+      {
+        "direction": "across",
+        "number": 9,
+        "clue": "Government built to replace the Galactic Empire",
+        "answer": "NEWREPUBLIC"
+      },
+      {
+        "direction": "across",
+        "number": 10,
+        "clue": "One of the protagonists of The Force Awakens who is a former Stormtrooper",
+        "answer": "FINN"
+      },
+      {
+        "direction": "down",
+        "number": 1,
+        "clue": "Someone who is apparently very precise",
+        "answer": "STORMTROOPER"
+      },
+      {
+        "direction": "down",
+        "number": 3,
+        "clue": "Leader of the Nightsisters in the Clone Wars",
+        "answer": "MOTHERTALZIN"
+      },
+      {
+        "direction": "down",
+        "number": 5,
+        "clue": "Amphibious humanoids native to the planet of Naboo",
+        "answer": "GUNGANS"
+      }
+    ],
+    "grid": {
+      "rows": 18,
+      "cols": 20,
+      "cells": [
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "G",
+            "downNumber": 5
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "M",
+            "downNumber": 3
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "U"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "letter": "F",
+            "acrossNumber": 10
+          },
+          {
+            "letter": "I"
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "T"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "G"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "H"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "E",
+            "acrossNumber": 6
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "letter": "D"
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "A",
+            "acrossNumber": 2
+          },
+          {
+            "letter": "S"
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "letter": "J"
+          },
+          {
+            "letter": "J"
+          },
+          {
+            "letter": "V"
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "letter": "T"
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "S",
+            "downNumber": 1
+          },
+          {
+            "letter": "S"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "T"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "L"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "Z"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "I"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "M"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "F",
+            "acrossNumber": 7
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "letter": "L"
+          },
+          {
+            "letter": "C"
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "letter": "N"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "T",
+            "acrossNumber": 8
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "letter": "H"
+          },
+          {
+            "letter": "I"
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "letter": "I"
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "B",
+            "acrossNumber": 4
+          },
+          {
+            "letter": "O"
+          },
+          {
+            "letter": "B"
+          },
+          {
+            "letter": "A"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "P"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "N",
+            "acrossNumber": 9
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "W"
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "letter": "E"
+          },
+          {
+            "letter": "P"
+          },
+          {
+            "letter": "U"
+          },
+          {
+            "letter": "B"
+          },
+          {
+            "letter": "L"
+          },
+          {
+            "letter": "I"
+          },
+          {
+            "letter": "C"
+          }
+        ],
+        [
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "letter": "R"
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          },
+          {
+            "block": true
+          }
+        ]
+      ]
+    }
+  }
+}
