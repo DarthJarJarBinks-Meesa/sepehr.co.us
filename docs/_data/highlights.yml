@@ -1,17 +1,17 @@
 # =============================================================================
-# PLACEHOLDER — featured cards on the Home page (edit freely)
+# Featured highlights shown on the Home page
 # =============================================================================
-- title: "Orthopedic device research"
-  blurb: "PLACEHOLDER — one-line hook about your lab work or flagship project."
-  href: "/research/"
+- title: "Parametric Auxetic Implant Design Platform"
+  blurb: "Python-based pipeline for structured auxetic implant design sweeps and staged screening."
+  href: "/personal-projects/#auxetic-bone-implant"
+  tag: Project
+
+- title: "Adaptive Neural Interface Simulator"
+  blurb: "Closed-loop BCI simulation framework in NEURON with multicompartment models and reproducible runs."
+  href: "/personal-projects/#closed-bci"
+  tag: Project
+
+- title: "From Acute Injury to Chronic Neurodegeneration"
+  blurb: "Top research publication connecting secondary brain injury mechanisms to long-term neurodegenerative pathology."
+  href: "/research/#acute-injury-chronic-neurodegeneration"
   tag: Research
-
-- title: "Independent build / startup concept"
-  blurb: "PLACEHOLDER — short teaser for something you shipped or are exploring."
-  href: "/personal-projects/"
-  tag: Projects
-
-- title: "Presentation or milestone"
-  blurb: "PLACEHOLDER — poster, paper, award, or leadership moment."
-  href: "/research/"
-  tag: Highlight

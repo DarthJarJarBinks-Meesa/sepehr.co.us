@@ -4,6 +4,10 @@
   {% include head.html %}
 </head>
 <body class="site-body">
+  <div class="edge-art" aria-hidden="true">
+    <img class="edge-art__left" src="{{ site.edge_art_left | relative_url }}" alt="" loading="lazy" decoding="async">
+    <img class="edge-art__right" src="{{ site.edge_art_left | relative_url }}" alt="" loading="lazy" decoding="async">
+  </div>
   <a class="skip-link" href="#main">Skip to content</a>
   {% include header.html %}
   <main id="main" class="site-main" tabindex="-1">

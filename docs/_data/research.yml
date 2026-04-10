@@ -1,35 +1,257 @@
-# =============================================================================
-# PLACEHOLDER — append new entries; each becomes one card on /research/
-# Fields are optional except title; omit unused keys or leave as PLACEHOLDER
-# =============================================================================
-- id: sample-orthopedic-device
-  title: "PLACEHOLDER — Project title (e.g., implant sensing / surgical tool)"
-  lab: "PLACEHOLDER — Lab name, Northwestern University"
-  mentor: "PLACEHOLDER — Faculty / PI"
-  summary_plain: >-
-    PLACEHOLDER — 2–4 sentences a non-specialist can follow. What are you doing
-    and why does it matter clinically or scientifically?
-  summary_technical: >-
-    PLACEHOLDER — Slightly deeper detail: mechanisms, signals, materials,
-    modeling assumptions, or physiology you engage with.
-  problem: >-
-    PLACEHOLDER — The gap, risk, or unmet need (clinical, engineering, or scientific).
-  role: >-
-    PLACEHOLDER — Your responsibilities: design, experiments, analysis, prototyping, etc.
-  methods: >-
-    PLACEHOLDER — Methods, tools, software, fabrication, statistics, imaging, etc.
-  outcomes: >-
-    PLACEHOLDER — Posters, talks, manuscripts, patents filed, next milestones.
-
-- id: sample-functional-neurosurgery
-  title: "PLACEHOLDER — Second research thread"
-  lab: "PLACEHOLDER — Institution / center"
-  mentor: ""
-  summary_plain: >-
-    PLACEHOLDER — Plain-English overview for a broad audience.
-  summary_technical: >-
-    PLACEHOLDER — Technical layer for readers who want more depth.
-  problem: "PLACEHOLDER — Problem statement."
-  role: "PLACEHOLDER — Your contributions."
-  methods: "PLACEHOLDER — Techniques and tools."
-  outcomes: "PLACEHOLDER — Outputs and future directions."
+- id: acute-injury-chronic-neurodegeneration
+  title: 'From Acute Injury to Chronic Neurodegeneration: Molecular Mechanisms Linking
+    Secondary Brain Injury to Long-Term Pathology'
+  lab: Christopher Ahuja Group, Northwestern University
+  mentor: Christopher Ahuja, MD
+  summary_plain: This publication examines how secondary injury after acute brain
+    injury may contribute to long-term neurodegeneration. It highlights molecular
+    pathways that may link early damage to chronic neurological decline.
+  summary_technical: The paper focuses on inflammatory, cellular, and molecular mechanisms
+    involved in the progression from acute injury to chronic neurodegenerative pathology.
+  problem: The transition from acute brain injury to chronic neurodegeneration remains
+    incompletely understood.
+  role: I contributed as a co-author through literature synthesis, manuscript development,
+    and scientific review.
+  methods: Literature review, mechanistic synthesis, scientific writing, and manuscript
+    preparation.
+  outcomes: 'Published in International Journal of Molecular Sciences (2025). DOI:
+    10.3390/ijms26157191.'
+  status: Published
+- id: eras-protocols-spine-surgery
+  title: 'ERAS Protocols: Impact on Outcomes in Spine Surgery'
+  lab: Christopher Ahuja Group, Northwestern University
+  mentor: Christopher Ahuja, MD
+  summary_plain: This publication evaluates how Enhanced Recovery After Surgery protocols
+    affect outcomes in spine surgery. It examines whether standardized perioperative
+    pathways improve recovery and postoperative outcomes.
+  summary_technical: The paper reviews outcome measures associated with ERAS implementation,
+    including perioperative recovery, complications, and length of stay in spine surgery
+    populations.
+  problem: Perioperative spine care varies widely, and more standardized recovery
+    pathways may improve outcomes.
+  role: I contributed as a co-author through literature analysis, manuscript support,
+    and scientific editing.
+  methods: Literature synthesis, outcome-focused review, scientific writing, and manuscript
+    preparation.
+  outcomes: 'Published in Seminars in Spine Surgery (2025). DOI: 10.1016/j.semss.2025.101188.'
+  status: Published
+- id: lifu-neuromodulation-dementia
+  title: 'Low-Intensity Focused Ultrasound Neuromodulation for Dementia: A Scoping
+    Review'
+  lab: Christopher Ahuja Group, Northwestern University
+  mentor: Christopher Ahuja, MD
+  summary_plain: This project reviews low-intensity focused ultrasound as a noninvasive
+    neuromodulation approach for dementia. It examines whether ultrasound may offer
+    a new way to target dysfunctional brain circuits in a condition with limited treatment
+    options.
+  summary_technical: The review focuses on ultrasound neuromodulation mechanisms,
+    target regions, stimulation parameters, safety, and early clinical outcomes.
+  problem: Dementia remains difficult to treat, and current therapies offer limited
+    benefit.
+  role: First author; I led literature screening, synthesis of findings, and preparation
+    of the conference presentation.
+  methods: Literature review, study screening, data extraction, evidence synthesis,
+    and presentation development.
+  outcomes: Presented at CNS 2025; next steps include refining the synthesis and identifying
+    gaps for future studies.
+  status: Presented
+- id: invasive-vns-non-epilepsy
+  title: 'Invasive Vagus Nerve Stimulation for Non-Epilepsy Indications: A Scoping
+    Review'
+  lab: Christopher Ahuja Group, Northwestern University
+  mentor: Christopher Ahuja, MD
+  summary_plain: This project reviews the use of invasive vagus nerve stimulation
+    for conditions outside epilepsy. It evaluates how VNS may be applied across neurological,
+    inflammatory, and rehabilitative indications.
+  summary_technical: The review examines implanted VNS across non-epilepsy conditions,
+    with attention to mechanisms, clinical indications, stimulation paradigms, and
+    reported outcomes.
+  problem: Although VNS is established in epilepsy, its broader clinical role remains
+    incompletely synthesized.
+  role: First author; I led literature screening, organization of study findings,
+    and preparation of the conference poster.
+  methods: Literature review, evidence screening, data extraction, comparative synthesis,
+    and poster preparation.
+  outcomes: Presented at CNS 2025; next steps include deeper comparison across indications
+    and therapeutic outcomes.
+  status: Presented
+- id: smart-fixation-pedicle-screw-loosening
+  title: Early Detection of Pedicle Screw Loosening Using a Tri-Axial Smart Fixation
+    System
+  lab: Rogers Lab and Christopher Ahuja Group, Northwestern University
+  mentor: John Rogers, PhD and Christopher Ahuja, MD
+  summary_plain: This project develops a smart fixation system to detect early pedicle
+    screw loosening before failure becomes clinically obvious. Earlier detection could
+    improve postoperative monitoring and reduce complications after spine instrumentation.
+  summary_technical: The system uses tri-axial sensing to measure changes associated
+    with implant micromotion and loosening under mechanical loading.
+  problem: Pedicle screw loosening is often detected only after substantial progression,
+    when intervention becomes more difficult.
+  role: I contributed to experimental design, benchtop testing, data analysis, and
+    presentation of the work.
+  methods: Mechanical testing, sensor-based measurement, benchtop modeling, data analysis,
+    and oral/poster presentation development.
+  outcomes: Presented at CAURS 2026 and Chicago Society for Neuroscience 2026; next
+    steps include continued validation and refinement of the sensing platform.
+  status: Presented
+- id: stem-cells-orthopedic-implants
+  title: 'Biologic Augmentation of Orthopedic Implants with Stem Cells: A Scoping
+    Review of Clinical Advancements'
+  lab: Christopher Ahuja Group, Northwestern University
+  mentor: Christopher Ahuja, MD
+  summary_plain: This project reviews clinical progress in using stem cells to biologically
+    augment orthopedic implants. It explores whether regenerative strategies can improve
+    implant integration and healing.
+  summary_technical: The review focuses on stem cell-based augmentation strategies,
+    delivery approaches, implant contexts, and reported clinical outcomes.
+  problem: Many orthopedic implants remain mechanically effective but biologically
+    limited in their ability to promote regeneration and integration.
+  role: First author; I led literature synthesis and preparation of the symposium
+    presentation.
+  methods: Literature review, study screening, data extraction, evidence synthesis,
+    and presentation development.
+  outcomes: Presented at the Chicago Spine Research Symposium 2025; next steps include
+    identifying the most promising translational directions.
+  status: Presented
+- id: pedometer-data-spine-outcomes
+  title: 'Assessing the Utility of Pedometer Data in Predicting Spine Surgery Outcomes:
+    A Scoping Review'
+  lab: Christopher Ahuja Group, Northwestern University
+  mentor: Christopher Ahuja, MD
+  summary_plain: This project reviews whether pedometer-derived mobility data can
+    help predict outcomes after spine surgery. It evaluates wearable activity tracking
+    as an objective measure of recovery.
+  summary_technical: The review examines postoperative step count metrics, monitoring
+    strategies, and associations between mobility data and clinical outcomes.
+  problem: Recovery after spine surgery is often assessed with subjective or intermittent
+    measures rather than continuous objective data.
+  role: First author; I led literature review, synthesis of findings, and preparation
+    of the conference poster.
+  methods: Literature review, evidence screening, data extraction, comparative synthesis,
+    and poster development.
+  outcomes: Presented at NANS 2026; next steps include clarifying which mobility metrics
+    are most clinically useful.
+  status: Presented
+- id: global-reits-covid-performance
+  title: 'Global Comparison of Real Estate Investment Trusts: Performance and Resilience
+    Throughout the COVID-19 Pandemic'
+  lab: Independent / preprint
+  mentor: ''
+  summary_plain: This preprint compares REIT performance across major countries during
+    the COVID-19 pandemic. It examines how different REIT markets responded to major
+    economic disruption.
+  summary_technical: The study uses financial analysis methods including the Fama-French
+    Three-Factor Model and cumulative abnormal return analysis to evaluate resilience
+    and market behavior.
+  problem: There is limited comparative understanding of how REIT sectors across countries
+    performed under severe global economic stress.
+  role: I contributed to literature synthesis, comparative analysis, and manuscript
+    development.
+  methods: Literature review, financial analysis, Fama-French Three-Factor Model,
+    cumulative abnormal return analysis, and scientific writing.
+  outcomes: Preprint posted through Cambridge University Press; next steps include
+    further dissemination and possible publication.
+  status: Preprint
+- id: gene-therapy-podocyte-ckd
+  title: Applications of Gene Therapy Strategies for Podocyte Function and CKD
+  lab: Independent / preprint
+  mentor: ''
+  summary_plain: This preprint reviews how gene therapy may be used to preserve podocyte
+    function and treat chronic kidney disease. It focuses on emerging therapeutic
+    strategies targeting podocyte injury.
+  summary_technical: The review examines AAV-based gene delivery, podocyte biology,
+    mechanisms of injury, and translational challenges such as targeting efficiency
+    and off-target effects.
+  problem: Current treatments do not directly address many causes of podocyte dysfunction,
+    which is a major driver of CKD progression.
+  role: I contributed to literature synthesis and manuscript development.
+  methods: Literature review, mechanistic synthesis, scientific writing, and preprint
+    preparation.
+  outcomes: Preprint completed; next steps include refinement and submission for publication.
+  status: Preprint
+- id: gut-metabolites-chemical-mechanisms
+  title: Chemical Mechanisms and Strategies for the Regulation of Integral Gut Metabolites
+    and Possible Treatments
+  lab: Independent / preprint
+  mentor: ''
+  summary_plain: This preprint reviews how gut microbial metabolites influence host
+    physiology and disease. It explores how these metabolites may be regulated for
+    therapeutic benefit in conditions such as IBD and colorectal cancer.
+  summary_technical: The review focuses on microbial metabolite chemistry, bile acid
+    metabolism, bile salt hydrolases, 7alpha-hydroxylase activity, and emerging bioengineering
+    approaches.
+  problem: The gut microbiome has major therapeutic potential, but many relevant chemical
+    pathways remain incompletely understood and difficult to translate clinically.
+  role: I contributed to literature synthesis and manuscript development.
+  methods: Literature review, pathway-focused synthesis, scientific writing, and preprint
+    preparation.
+  outcomes: Preprint completed; next steps include refinement and submission for publication.
+  status: Preprint
+- id: chemotherapy-cardiac-cancers
+  title: Current Applications of Chemotherapy in Treatment of Cardiac Cancers
+  lab: Independent / preprint
+  mentor: ''
+  summary_plain: This preprint reviews the role of chemotherapy in the treatment of
+    malignant cardiac tumors. It examines how chemotherapy is used alongside surgery
+    and radiotherapy to improve outcomes.
+  summary_technical: The review discusses neoadjuvant and adjuvant chemotherapy, agents
+    such as anthracyclines and ifosfamide, and barriers including cardiotoxicity and
+    anatomical constraints.
+  problem: Cardiac cancers are rare and difficult to treat, and chemotherapy use is
+    limited by toxicity and the complexity of tumor location.
+  role: I contributed to literature synthesis and manuscript development.
+  methods: Literature review, treatment-focused synthesis, scientific writing, and
+    preprint preparation.
+  outcomes: Preprint completed; next steps include refinement and submission for publication.
+  status: Preprint
+- id: epigenetics-rbc-carcinogenesis
+  title: Evolutionary Significance of Epigenetic Mechanisms in Red Blood Cells and
+    Implications in Carcinogenesis
+  lab: Independent / preprint
+  mentor: ''
+  summary_plain: This preprint reviews how epigenetic mechanisms shape red blood cell
+    biology and how dysregulation of these pathways may contribute to carcinogenesis.
+    It connects evolutionary adaptation with disease relevance.
+  summary_technical: The review focuses on DNA methylation, histone modification,
+    non-coding RNAs, and therapeutic targets such as DNMT, HDAC, and BET inhibition.
+  problem: The links between epigenetic regulation, red blood cell adaptation, and
+    cancer-related dysregulation are not always synthesized clearly across fields.
+  role: I contributed to literature synthesis and manuscript development.
+  methods: Literature review, mechanistic synthesis, scientific writing, and preprint
+    preparation.
+  outcomes: Preprint completed; next steps include refinement and submission for publication.
+  status: Preprint
+- id: social-structural-determinants-policy
+  title: Historical and Potential Policies to Influence Social and Structural Determinants
+  lab: Independent / preprint
+  mentor: ''
+  summary_plain: This preprint reviews how social and structural determinants of health
+    shape disparities in low- and middle-income communities. It also examines policies
+    that may improve health equity.
+  summary_technical: The review discusses structural inequities including redlining,
+    discriminatory policy, access to care, food environments, and comparative policy
+    approaches to reducing disparities.
+  problem: Health disparities are strongly shaped by structural conditions, but effective
+    policy solutions are unevenly implemented.
+  role: I contributed to literature synthesis and manuscript development.
+  methods: Literature review, policy analysis, case study synthesis, scientific writing,
+    and preprint preparation.
+  outcomes: Preprint completed; next steps include refinement and submission for publication.
+  status: Preprint
+- id: lipid-proteostasis-nuclear-envelope
+  title: Lipid Metabolism and Proteostasis Interdependencies and Implications for
+    Nuclear Envelope Dysfunction and Neurodegenerative Disease
+  lab: Independent / preprint
+  mentor: ''
+  summary_plain: This preprint reviews how lipid metabolism and proteostasis interact
+    to maintain nuclear envelope integrity and how disruption of these systems may
+    contribute to neurodegenerative disease.
+  summary_technical: The review focuses on ER stress, unfolded protein response signaling,
+    nuclear envelope biology, and targets such as AMPK and SCD1.
+  problem: The relationship between lipid homeostasis, proteotoxic stress, and nuclear
+    envelope dysfunction is complex and not fully integrated in current reviews.
+  role: I contributed to literature synthesis and manuscript development.
+  methods: Literature review, mechanistic synthesis, scientific writing, and preprint
+    preparation.
+  outcomes: Preprint completed; next steps include refinement and submission for publication.
+  status: Preprint

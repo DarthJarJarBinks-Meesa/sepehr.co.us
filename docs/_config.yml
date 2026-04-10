@@ -24,9 +24,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Resume opens in a new tab — replace the filename after you add your real PDF
-# (see docs/assets/documents/README.md)
 resume_pdf_path: "/assets/documents/resume.pdf"
+
+# Side decorative art (path from site root). Right side is the same asset, flipped in CSS.
+edge_art_left: "/assets/images/left_background.svg"
 
 exclude:
   - README.md

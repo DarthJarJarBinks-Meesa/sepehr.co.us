@@ -1,25 +1,82 @@
-# =============================================================================
-# PLACEHOLDER — append projects; each renders as a card on /personal-projects/
-# =============================================================================
-- id: sample-invention
-  title: "PLACEHOLDER — Project name"
+- id: auxetic-bone-implant
+  title: "Parametric Auxetic Implant Design Platform"
   what: >-
-    PLACEHOLDER — What it is in one tight paragraph (product, tool, design study).
+    A Python-based design and simulation pipeline for auxetic orthopedic bone
+    plates. It generates parameter-sweep cases, supports staged screening, and
+    is set up to explore different lattice designs, materials, plate
+    thicknesses, and load cases for implant optimization.
   why: >-
-    PLACEHOLDER — Why you made it: user, curiosity, advocacy, competition brief, etc.
+    I made it to study how auxetic implant geometry could be tuned in a
+    structured, repeatable way rather than by manually testing one-off designs.
+    It reflects my interest in orthopedic implant design and in building a
+    computational workflow that can narrow promising candidates before more
+    expensive downstream validation.
   interesting: >-
-    PLACEHOLDER — What makes it different: constraint, insight, hack, or craft.
-  role: "PLACEHOLDER — Solo / team; what you owned end-to-end."
-  status: "PLACEHOLDER — e.g., Prototype · On hold · Pilot · Shipped"
+    What makes it interesting is that it is not just a CAD script. It is a
+    config-driven sweep framework with baseline, one-factor-variation, and
+    full-factorial modes, plus staged screening to keep the design space
+    computationally manageable. It also handles multiple auxetic topologies,
+    including re-entrant, rotating-square, and tetrachiral designs.
+  role: >-
+    Personal project; I owned the system design, code architecture, and
+    workflow logic end-to-end, including case generation, CLI orchestration,
+    and the overall structure for geometry, simulation, analysis, and
+    reporting.
+  status: "In Development"
   image: ""
   image_alt: ""
 
-- id: sample-software-tool
-  title: "PLACEHOLDER — Second project"
-  what: "PLACEHOLDER — Description."
-  why: "PLACEHOLDER — Motivation."
-  interesting: "PLACEHOLDER — Differentiator."
-  role: "PLACEHOLDER — Your role."
-  status: "PLACEHOLDER — Stage."
+- id: closed-bci
+  title: "Adaptive Neural Interface Simulator"
+  what: >-
+    A Phase 1 closed-loop BCI simulation framework built with the NEURON Python
+    API. It models multicompartment neurons, ring-network connectivity,
+    extracellular stimulation, and reproducible voltage and spike recordings,
+    with support for serial and MPI-parallel execution.
+  why: >-
+    I made it as a neuroengineering sandbox for exploring how stimulation,
+    network dynamics, and computational modeling can be integrated into a
+    closed-loop brain-computer interface workflow. It fits my broader interest
+    in neurotechnology and building technically grounded systems rather than
+    treating BCI as just a high-level concept.
+  interesting: >-
+    What makes it interesting is the combination of biophysical neuron modeling
+    and systems-level simulation. Instead of stopping at a toy neural network,
+    it uses NEURON, deterministic 3D placement, event-based synapses,
+    extracellular stimulation, and parallelization, which makes it feel closer
+    to a serious computational neuroengineering foundation.
+  role: >-
+    Personal project; I owned the simulation concept, implementation, and
+    experiment structure, including the neuron models, stimulation setup,
+    recording pipeline, and code organization for running reproducible studies.
+  status: "Phase 1"
+  image: ""
+  image_alt: ""
+
+- id: emt-epcr-backend
+  title: "EMS Report Engine"
+  what: >-
+    A FastAPI backend for processing EMS encounter audio into structured
+    electronic patient care report data. The system accepts uploaded audio,
+    transcribes it with Whisper through Groq, and then uses an LLM to extract
+    organized ePCR fields and generate a clinical narrative plus a plain-English
+    call summary.
+  why: >-
+    I made it to reduce the documentation burden in emergency medical workflows
+    and turn messy spoken encounter data into cleaner, more usable records. It
+    reflects an interest in clinical tools that make frontline care more
+    efficient without requiring providers to manually structure everything
+    themselves.
+  interesting: >-
+    What makes it interesting is that it is not just transcription. The backend
+    validates uploaded audio, runs speech-to-text, converts the transcript into
+    a structured schema for demographics, vitals, assessment, interventions,
+    and narrative reporting, and exposes the whole flow as an API.
+  role: >-
+    Personal project; I owned the backend architecture and implementation,
+    including API design, upload validation, model integration, schema design,
+    and the logic for converting raw encounter audio into structured EMS
+    documentation.
+  status: "Prototype"
   image: ""
   image_alt: ""

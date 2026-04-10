@@ -2,6 +2,10 @@
 <article class="research-card" id="{{ p.id }}">
   <header class="research-card__head">
     <h2 class="research-card__title">{{ p.title }}</h2>
+    {% if p.status != blank %}
+      {% assign status_slug = p.status | downcase | replace: ' ', '-' %}
+      <p class="research-card__status"><span class="pill pill--{{ status_slug }}">{{ p.status }}</span></p>
+    {% endif %}
     {% if p.lab != blank %}
       <p class="research-card__meta">{{ p.lab }}{% if p.mentor != blank %} · {{ p.mentor }}{% endif %}</p>
     {% endif %}

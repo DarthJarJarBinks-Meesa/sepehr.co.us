@@ -1,5 +1,5 @@
 {% assign p = include.item %}
-<article class="project-card" id="{{ p.id }}">
+<article class="project-card{% if p.image != blank %} project-card--with-image{% endif %}" id="{{ p.id }}">
   <div class="project-card__body">
     <header class="project-card__head">
       <h2 class="project-card__title">{{ p.title }}</h2>

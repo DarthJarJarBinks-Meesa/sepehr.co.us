@@ -9,7 +9,6 @@ description: Inventions, builds, software, and initiatives — independent work 
     <h1 class="page-header__title">Personal projects</h1>
     <p class="page-header__lede">
       A more playful lane for things I’ve built, prototyped, or pushed forward on my own initiative.
-      Append items in <code>docs/_data/personal_projects.yml</code>; each card is rendered automatically.
     </p>
   </header>
 

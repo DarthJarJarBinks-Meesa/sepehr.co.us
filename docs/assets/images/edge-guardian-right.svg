@@ -1,0 +1,16 @@
+<svg width="520" height="980" viewBox="0 0 520 980" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sci-fi guardian silhouette right">
+  <defs>
+    <linearGradient id="rightGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd889" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#ffd889" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bodyShadeR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd8a6" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#b78d6c" stop-opacity="0.16"/>
+    </linearGradient>
+  </defs>
+  <rect x="142" y="140" width="7" height="690" rx="3.5" fill="url(#rightGlow)"/>
+  <path d="M34 836C46 760 66 704 94 659C116 624 141 601 172 588C177 577 180 566 180 553C180 525 171 500 151 474C135 452 114 430 100 404C84 374 77 343 86 307C97 263 128 232 172 222C207 214 249 227 282 257C315 286 330 321 329 360C328 393 313 419 293 440C267 466 246 502 246 548C246 562 249 576 257 588C287 600 313 624 335 660C363 704 383 760 394 836L332 836C322 788 306 748 286 716C266 684 242 668 216 668C190 668 166 684 146 715C126 747 110 788 99 836L34 836Z" fill="url(#bodyShadeR)"/>
+  <path d="M275 286C261 272 246 264 230 260C221 268 215 278 212 289C208 304 210 320 218 334C228 352 244 365 255 381C268 400 276 421 277 445C278 472 269 501 253 521C244 532 233 540 220 545C223 521 218 499 206 479C194 459 175 442 158 425C142 408 128 390 123 368C118 346 121 323 132 303C144 282 164 268 186 263C216 257 248 265 275 286Z" fill="#fff0d3" fill-opacity="0.28"/>
+  <circle cx="200" cy="310" r="6" fill="#ffe9bc" fill-opacity="0.5"/>
+</svg>

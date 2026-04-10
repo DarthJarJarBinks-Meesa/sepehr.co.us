@@ -45,55 +45,10 @@ extra_scripts:
           {% endif %}
         </li>
         <li>
-          <strong>Google Scholar:</strong>
-          {% if site.data.site_links.google_scholar != blank %}
-            <a href="{{ site.data.site_links.google_scholar }}" target="_blank" rel="noopener noreferrer">Publications</a>
-          {% else %}
-            <span>PLACEHOLDER (optional)</span>
-          {% endif %}
+          <strong>Resume:</strong>
+          <a href="{{ site.resume_pdf_path | relative_url }}" target="_blank" rel="noopener noreferrer">Open PDF in a new tab</a>
         </li>
-        {% if site.data.site_links.portfolio != blank %}
-        <li>
-          <strong>Portfolio:</strong>
-          <a href="{{ site.data.site_links.portfolio }}" target="_blank" rel="noopener noreferrer">External portfolio</a>
-        </li>
-        {% endif %}
       </ul>
-      <p class="section__lede" style="margin-top:1.25rem;">
-        <strong>Resume:</strong>
-        <a href="{{ site.resume_pdf_path | relative_url }}" target="_blank" rel="noopener noreferrer">Open PDF in a new tab</a>
-        (replace the file named in <code>_config.yml</code> → <code>resume_pdf_path</code>).
-      </p>
-    </div>
-
-    <div>
-      <h2 class="section__title" style="margin-top:0;font-size:1.25rem;">Send a message</h2>
-      <p class="section__lede" style="margin-bottom:1rem;">
-        This form never posts to a third party and does not embed API keys. It opens your email client with a
-        pre-filled message (you can swap to a secure server-side handler later if you prefer).
-      </p>
-      <form
-        id="contact-form"
-        class="contact-form"
-        novalidate
-        data-contact-email="{{ site.data.site_links.email }}"
-        data-subject-prefix="{{ site.data.site_links.email_subject_prefix | default: 'Website message' | xml_escape }}"
-      >
-        <div>
-          <label for="contact-name">Name</label>
-          <input id="contact-name" name="name" type="text" autocomplete="name" required maxlength="120">
-        </div>
-        <div>
-          <label for="contact-email">Your email</label>
-          <input id="contact-email" name="email" type="email" autocomplete="email" required maxlength="254">
-        </div>
-        <div>
-          <label for="contact-message">Message</label>
-          <textarea id="contact-message" name="message" required maxlength="8000"></textarea>
-        </div>
-        <button type="submit" class="btn btn--primary contact-form__submit">Compose email</button>
-        <p id="contact-form-status" class="form-status" aria-live="polite"></p>
-      </form>
     </div>
   </div>
 </div>
