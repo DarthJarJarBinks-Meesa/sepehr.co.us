@@ -26,7 +26,7 @@ plugins:
 
 # Resume opens in a new tab — replace the filename after you add your real PDF
 # (see docs/assets/documents/README.md)
-resume_pdf_path: "/assets/documents/YOUR_RESUME_HERE.pdf"
+resume_pdf_path: "/assets/documents/resume.pdf"
 
 exclude:
   - README.md
