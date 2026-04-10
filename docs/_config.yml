@@ -8,9 +8,10 @@ description: >-
   Northwestern University. Medical devices, orthopedics, functional neurosurgery,
   startups, and thoughtful engineering.
 
-# Production URL (no trailing slash). Custom domain for GitHub Pages — see docs/CNAME.
-url: "https://sepehr.co.us"
-baseurl: ""
+# Production URL for GitHub Pages project site.
+# Switch back to your custom domain later (e.g., url: "https://sepehr.co.us", baseurl: "").
+url: "https://darthjarjarbinks-meesa.github.io"
+baseurl: "/sepehr.co.us"
 
 locale: en_US
 markdown: kramdown
